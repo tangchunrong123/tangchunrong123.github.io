@@ -529,7 +529,7 @@ div.sblock:last-child p {
 #section-7 .img{
     height: 520px;
     margin-left: 68%;
-    background: url(img/pic08.jpg) no-repeat;
+    background-image: url(img/pic08.jpg) no-repeat;
     background-size: cover;
 }
 #section-8{
@@ -766,3 +766,4 @@ footer .back a{
 footer .back a:hover{
     color: #75757F;
 }
+
