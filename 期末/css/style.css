@@ -700,7 +700,7 @@ body {
     animation: bg2-3 3s;
 }
 
-@keyframes bg2-3 {
+@keyframes all {
     0% {
         opacity: 1;
     }
@@ -853,6 +853,11 @@ body {
     width: 361px;
     height: 69px;
     background-image: url(../images/qtcode.png);
+    transition: all 1.5s;
+
+}
+.qtcode.active .right {
+    left: 50%;
 }
 
 .godown {
