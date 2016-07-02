@@ -606,31 +606,6 @@ body {
 }
 
 
-/*
-.left5 {
-    position: absolute;
-    left: -200%;
-    top: 50%;
-    width: 588px;
-    height: 505px;
-    margin: -253px 0 0 -80px;
-    background: url(../images/l5.png) 50% 50% no-repeat;
-}
-*/
-
-
-/*.right5 {
-    position: absolute;
-    left: 200%;
-    top: 50%;
-    width: 600px;
-    height: 408px;
-    margin-top: -204px;
-    background-image: url(../images/r5.png);
-}
-*/
-
-
 /* 第一屏动画效果设置 */
 
 .left {
@@ -680,10 +655,10 @@ body {
 
 @keyframes bg1-3 {
     0% {
-        opacity: 0;
+        opacity: 1;
     }
     50% {
-        opacity: 0;
+        opacity: 0.3;
     }
     100% {
         opacity: 1;
@@ -720,43 +695,25 @@ body {
     transition: all 1s ease 3s;
 }
 
-.active .hand {
-    -webkit-animation: hand 2s ease 3s;
-    animation: hand 2s ease 3s;
+.active .bg2-3 {
+    opacity: 1;
+    animation: bg2-3 3s;
 }
 
-@-webkit-keyframes hand {
+@keyframes bg2-3 {
     0% {
-        left: 300%;
+        opacity: 1;
     }
     50% {
-        left: 62px;
-    }
-    70% {
-        left: 62px;
+        opacity: 0.3;
     }
     100% {
-        left: 300%;
-    }
-}
-
-@keyframes hand {
-    0% {
-        left: 300%;
-    }
-    50% {
-        left: 62px;
-    }
-    70% {
-        left: 62px;
-    }
-    100% {
-        left: 300%;
+        opacity: 1;
     }
 }
 
 
-/* 绗笁灞忓姩鐢� */
+/* 3 */
 
 .active .bg3-3,
 .ltie10 .bg3-3 {
@@ -779,13 +736,13 @@ body {
 }
 
 @-webkit-keyframes bg3-4 {
-    0 {
+    0% {
         opacity: 1;
     }
     50% {
         opacity: 0.3;
     }
-    100 {
+    100% {
         opacity: 1;
     }
 }
@@ -863,7 +820,7 @@ body {
 }
 
 
-/* 绗簲灞忓姩鐢� */
+/* fivth */
 
 .bg5-3 {
     -webkit-animation: bg5-3 20s linear infinite 0s;
