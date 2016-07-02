@@ -292,7 +292,8 @@ body {
 }
 
 .section2 {
-    background: url(../images/bg2.png) 0 50% repeat-x;
+    background: url(../images/bg2.png) 10% 930%;
+    /*background: no-repeat;*/
 }
 
 .logo2 {
@@ -308,27 +309,31 @@ body {
     overflow: hidden;
 }
 
-.bg2-1 {
+
+/*.bg2-1 {
     background: url(../images/bg2-1.png) 50% 50% no-repeat;
 }
 
 .bg2-2 {
     background: url(../images/bg2-2.png) 50% 50% no-repeat;
-}
+}*/
 
-.bg2-3 {
+
+/*.bg2-3 {
     background: url(../images/bg2-3.png) 50% -300% no-repeat;
     transition: all 1.5s;
 }
+*/
 
 .left2 {
     position: absolute;
-    left: -200%;
+    left: -50%;
     top: 50%;
     width: 830px;
     height: 558px;
-    margin: -253px 0 0 -80px;
-    background: url(../images/l2.png) 0 0 no-repeat;
+    margin: -450px 0 0 -300px;
+    background: url(../images/bg2-3.png) 100% -100% no-repeat;
+    transition: all 1.5s;
 }
 
 .left2-1 {
@@ -337,7 +342,7 @@ body {
     top: 53px;
     width: 487px;
     height: 366px;
-    background-image: url(../images/l2-1.png);
+    background-image: url(../images/r2.png);
     opacity: 0;
     transition: all 1.5s;
 }
@@ -352,7 +357,8 @@ body {
     opacity: 0;
 }
 
-.right2 {
+
+/*.right2 {
     position: absolute;
     left: 200%;
     top: 50%;
@@ -360,31 +366,38 @@ body {
     height: 518px;
     margin-top: -269px;
     background-image: url(../images/r2.png);
+    background-repeat: no-repeat;
+    transition: all 0.5s;
 }
+*/
 
 .tip {
     position: absolute;
-    left: 300%;
-    top: 50%;
-    width: 331px;
-    height: 194px;
-    margin-top: -170px;
+    left: 20%;
+    top: 25%;
+    width: 5501px;
+    height: 104px;
+    margin-top: -70px;
     background-image: url(../images/tip.png);
     opacity: 0;
+    transition: all 1.5s;
 }
 
-.hand {
+.tip1 {
     position: absolute;
-    left: 300%;
-    top: 50%;
-    width: 331px;
-    height: 194px;
-    margin-top: -170px;
-    background-image: url(../images/hand.png);
+    left: 10%;
+    top: 25%;
+    width: 5501px;
+    height: 104px;
+    margin-top: -70px;
+    background-image: url(../images/tip1.png);
+    opacity: 0;
+    transition: all 0.3s;
+    background-repeat: no-repeat;
 }
 
 .section3 {
-    background: url(../images/bg3.png) 0 50% repeat-x;
+    background: url(../images/bg3.png) 20% 70% repeat-x;
 }
 
 .logo3 {
@@ -405,13 +418,15 @@ body {
 
 .bg3-2 {
     background: url(../images/bg3-2.png) 50% 50% no-repeat;
-}
-
-.bg3-3 {
-    background: url(../images/bg3-3.png) 50% 10% no-repeat;
-    opacity: 0;
     transition: all 1s;
 }
+
+
+/*.bg3-3 {
+    background: url(../images/bg3-3.png) 50% 10% no-repeat;
+    opacity: 0;
+    
+}*/
 
 .bg3-4 .bg {
     background: url(../images/bg3-4.png) 50% 10% no-repeat;
@@ -437,6 +452,7 @@ body {
     height: 630px;
     margin: -315px 0 0 50px;
     background-image: url(../images/r3.png);
+    opacity: 0.9;
 }
 
 .section4 {
@@ -557,7 +573,7 @@ body {
 }
 
 .section5 {
-    background: #fff url(../images/bg5.png) 0 50% repeat-x;
+    background: #fff url(../images/bg5.png) 53% 50% repeat-x;
 }
 
 .logo5 {
@@ -589,6 +605,8 @@ body {
     background: url(../images/bg5-4.png) 50% 0 no-repeat;
 }
 
+
+/*
 .left5 {
     position: absolute;
     left: -200%;
@@ -598,8 +616,10 @@ body {
     margin: -253px 0 0 -80px;
     background: url(../images/l5.png) 50% 50% no-repeat;
 }
+*/
 
-.right5 {
+
+/*.right5 {
     position: absolute;
     left: 200%;
     top: 50%;
@@ -608,6 +628,7 @@ body {
     margin-top: -204px;
     background-image: url(../images/r5.png);
 }
+*/
 
 
 /* 第一屏动画效果设置 */
