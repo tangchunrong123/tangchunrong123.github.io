@@ -350,9 +350,10 @@ body {
 .left2-2 {
     position: absolute;
     left: -10px;
-    top: 75px;
+    top: 35px;
     width: 510px;
     height: 396px;
+    margin: 50px 30px 50px 30px;
     background-image: url(../images/l2-2.png);
     opacity: 0;
 }
@@ -374,13 +375,13 @@ body {
 .tip {
     position: absolute;
     left: 20%;
-    top: 25%;
-    width: 5501px;
-    height: 104px;
-    margin-top: -70px;
+    top: 75%;
+    width: 1800px;
+    height: 200px;
+    margin-top: -10px;
     background-image: url(../images/tip.png);
     opacity: 0;
-    transition: all 1.5s;
+    transition: all 0.5s;
 }
 
 .tip1 {
@@ -398,6 +399,7 @@ body {
 
 .section3 {
     background: url(../images/bg3.png) 20% 70% repeat-x;
+    
 }
 
 .logo3 {
