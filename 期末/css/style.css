@@ -333,18 +333,18 @@ body {
     height: 558px;
     margin: -450px 0 0 -300px;
     background: url(../images/bg2-3.png) 100% -100% no-repeat;
-    transition: all 1.5s;
+    transition: all 0.5s;
 }
 
 .left2-1 {
     position: absolute;
     left: 0;
-    top: 53px;
+    top: 23px;
     width: 487px;
     height: 366px;
     background-image: url(../images/r2.png);
     opacity: 0;
-    transition: all 1.5s;
+    transition: all 0.5s;
 }
 
 .left2-2 {
